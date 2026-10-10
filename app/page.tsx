@@ -219,6 +219,7 @@ export default function HomePage() {
           name: site.name,
           url: site.url,
           logo: absoluteUrl("/icon.svg"),
+          telephone: site.contact.phone,
           ...(site.contact.email ? { email: site.contact.email } : {}),
         }}
       />

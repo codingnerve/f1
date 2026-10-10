@@ -61,7 +61,7 @@ export default async function TicketsPage({ params }: PageProps<"/races/[slug]/t
             {site.contact.email ? (
               <a href={`mailto:${site.contact.email}`} className="flex items-center gap-1.5 pb-1 hover:text-racing">
                 <Mail aria-hidden="true" className="size-4 text-racing" />
-                Email us
+                {site.contact.email}
               </a>
             ) : null}
             <CallButton />

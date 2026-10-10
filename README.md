@@ -4,12 +4,13 @@ Premium Grand Prix discovery and ticket **enquiry** website for [way2tickets.com
 
 Way2Tickets is an independent ticket booking service. **Bookings are made by phone** and there is **no payment gateway**: visitors explore events, sessions and ticket categories, then tap **Call to Book** to reach the booking team.
 
-## Booking phone number
+## Booking phone number and contact details
 
 Every booking action calls one number: header, announcement bar, homepage hero, race pages, ticket details, contact page and footer.
 
-- Set it with `NEXT_PUBLIC_CONTACT_PHONE` (e.g. `+44 20 1234 5678`). The `tel:` link is generated from it automatically.
-- Until it is set, the site shows the placeholder **+1 (212) 555-0142**. Numbers in the 555-0100 to 555-0199 range are reserved for fictional use, so it never rings a real person. **Replace it before launch.**
+- Configured default booking number: **+1 (877) 261-9445** (toll-free 1-877-261-9445). Can be overridden via `NEXT_PUBLIC_CONTACT_PHONE`.
+- Configured support email: **Support@way2tickets.com**. Can be overridden via `NEXT_PUBLIC_CONTACT_EMAIL`.
+- Dialable `tel:` links are generated automatically.
 
 ## Getting started
 
