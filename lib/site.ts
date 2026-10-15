@@ -9,7 +9,7 @@ const DEFAULT_SITE_URL = "https://way2tickets.com";
  * PLACEHOLDER booking line. 555-0100–0199 numbers are reserved for fictional use, so this never
  * reaches a real person. Set NEXT_PUBLIC_CONTACT_PHONE to the real booking number before launch.
  */
-const DEFAULT_PHONE = "+1 (877) 261-9445";
+const DEFAULT_PHONE = "+1 (833) 595-1934";
 const DEFAULT_EMAIL = "Support@way2tickets.com";
 
 function normaliseUrl(value: string | undefined): string {
@@ -50,7 +50,7 @@ export const site = {
     "Way2Tickets is an independent ticket booking service. We are not affiliated with, endorsed by, or an official ticketing partner of Formula 1, the FIA, or any race promoter. Event names are used solely to identify events.",
 } as const;
 
-/** `tel:` link for a displayed phone number, e.g. "+1 (877) 261-9445" → "tel:+18772619445". */
+/** `tel:` link for a displayed phone number, e.g. "+1 (833) 595-1934" → "tel:+18335951934". */
 export function telHref(phone: string = site.contact.phone): string {
   return `tel:${phone.replace(/[^+\d]/g, "")}`;
 }

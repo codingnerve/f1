@@ -8,7 +8,7 @@ Way2Tickets is an independent ticket booking service. **Bookings are made by pho
 
 Every booking action calls one number: header, announcement bar, homepage hero, race pages, ticket details, contact page and footer.
 
-- Configured default booking number: **+1 (877) 261-9445** (toll-free 1-877-261-9445). Can be overridden via `NEXT_PUBLIC_CONTACT_PHONE`.
+- Configured default booking number: **+1 (833) 595-1934** (toll-free 1-833-595-1934). Can be overridden via `NEXT_PUBLIC_CONTACT_PHONE`.
 - Configured support email: **Support@way2tickets.com**. Can be overridden via `NEXT_PUBLIC_CONTACT_EMAIL`.
 - Dialable `tel:` links are generated automatically.
 
